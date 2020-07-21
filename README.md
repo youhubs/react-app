@@ -15,6 +15,7 @@
 - Multiple Components in Sync
 - Functional Components
 - Lifecyle Hooks
+- React Developer Tools
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
