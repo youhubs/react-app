@@ -13,8 +13,11 @@
 - Pass Data
 - Raise and Handle Events
 - Multiple Components in Sync
-- Functional Components
+- Stateless Functional Components
 - Lifecyle Hooks
+  - MOUNT (constructor, render, componentDidMount)
+  - UPDATE (render, componentDidUpdate)
+  - UNMOUNT (componentDidUnmount)
 - React Developer Tools
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

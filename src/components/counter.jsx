@@ -1,12 +1,9 @@
 import React, { Component } from "react"; // imrc
 
 class Counter extends Component {
-  // state = {
-  //   value: this.props.counter.value,
-  // };
-
   render() {
-    console.log("props", this.props);
+    console.log("Counter - Rendered");
+
     return (
       <React.Fragment>
         <h4>Counter #{this.props.counter.id}</h4>
