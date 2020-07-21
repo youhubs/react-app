@@ -13,7 +13,7 @@ class Counter extends Component {
     console.log("props", this.props);
     return (
       <React.Fragment>
-        {this.props.children}
+        <h4>Counter #{this.props.id}</h4>
         <span className={this.getBadgeClasses()}>{this.formatCount()}</span>
         <button
           onClick={this.handleIncrement}
